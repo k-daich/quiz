@@ -1,0 +1,29 @@
+:root {
+    --baseColor: rgba(238, 238, 238, 1);
+    --baseColor_bg: rgb(13, 14, 18);
+    --baseColor_border: rgb(88, 88, 88);
+}
+
+body {
+    background-color: var(--baseColor_bg);
+}
+
+.c_subtitles-wrap {
+    position: absolute;
+    display: table;
+    bottom: 40vh;
+    left: 10vw;
+    min-height: 20vh;
+    width: 80vw;
+    border: solid var(--baseColor_border);
+}
+
+.c_subtitles {
+    display: table-cell;
+    font-family: "ＭＳ ゴシック", sans-serif;
+    background: linear-gradient(180deg, var(--baseColor_bg), var(--baseColor) 0%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    vertical-align: middle;
+}
