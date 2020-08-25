@@ -6,6 +6,7 @@
 
 body {
     background-color: var(--baseColor_bg);
+    color: var(--baseColor);
 }
 
 .c_subtitles-wrap {
